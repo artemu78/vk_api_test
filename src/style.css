@@ -50,3 +50,20 @@ code { background: #374151; padding: 2px 5px; border-radius: 4px; }
   article { grid-template-columns: 1fr auto; }
   article > span { grid-column: 2; }
 }
+.actions { flex-wrap: wrap; }
+input, select { width: 100%; min-width: 0; margin: 8px 0 16px; padding: 12px; border: 1px solid #64748b; border-radius: 8px; background: #1f2937; color: #e5e7eb; font: inherit; }
+button { min-height: 44px; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #60a5fa; outline-offset: 3px; }
+.readable strong { color: #86efac; }
+.opaque strong { color: #fde68a; }
+.http-error strong, .timeout strong { color: #fca5a5; }
+article strong { font-size: 13px; }
+.history { margin-top: 28px; }
+.history h2 { margin-bottom: 0; }
+.saved { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px; background: #1f2937; border-radius: 8px; }
+small { display: block; color: #b7c3d3; }
+.table-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #475569; }
+.changed { background: #49381f; }
+p, footer { line-height: 1.5; }
